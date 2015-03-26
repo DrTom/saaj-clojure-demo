@@ -1,14 +1,22 @@
-# saaj-demo
 
-A Clojure library designed to ... well, that part is up to you.
+SAAJ Demo via Clojure
+=====================
 
-## Usage
+This is a little demo project. It verifies a given email address against the
+<http://ws.cdyne.com/emailverify/Emailvernotestemail.asmx> SOAP service. 
 
-FIXME
+# Usage: 
 
-## License
+    ./bin/run 
 
-Copyright © 2015 FIXME
+Enter some email-address. Hit enter.  Watch the output. 
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Note, the (free) service will only work for a limited number of requests. 
+
+
+
+# Notes:
+
+* <http://docs.oracle.com/javaee/5/tutorial/doc/bnbhg.html>
+* <http://www.webservicex.net/ws/default.aspx>
+≪ <http://stackoverflow.com/questions/15948927/working-soap-client-example>
